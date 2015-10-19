@@ -1,0 +1,59 @@
+﻿2015/07/23 19:56:33 にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "D:\GameDevelopments\C++\PuniPuni\PuniPuni.vcxproj" (Build ターゲット)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt App.cpp Audio.cpp Input.cpp Main.cpp Math.cpp Player.cpp Render.cpp Resource.cpp Stage.cpp vtx.cpp
+         App.cpp
+         d:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+         コードを生成中...
+         コンパイル中...
+         vtx.cpp
+         d:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+         Stage.cpp
+         d:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+     1>d:\gamedevelopments\c++\punipuni\stage.cpp(71): warning C4244: '引数' : 'float' から 'int' への変換です。データが失われる可能性があります。
+         Resource.cpp
+         d:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+     1>d:\gamedevelopments\c++\punipuni\resource.cpp(127): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+     1>d:\gamedevelopments\c++\punipuni\resource.cpp(135): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+     1>d:\gamedevelopments\c++\punipuni\resource.cpp(157): warning C4018: '<=' : signed と unsigned の数値を比較しようとしました。
+         Render.cpp
+         d:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+         Player.cpp
+         d:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+     1>d:\gamedevelopments\c++\punipuni\player.cpp(39): warning C4244: '初期化中' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>d:\gamedevelopments\c++\punipuni\player.cpp(63): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+     1>d:\gamedevelopments\c++\punipuni\player.cpp(101): warning C4244: '初期化中' : 'double' から 'float' への変換です。データが失われる可能性があります。
+         Math.cpp
+         d:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+         Main.cpp
+         d:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+     1>d:\gamedevelopments\c++\punipuni\main.cpp(86): warning C4244: '+=' : 'float' から 'int' への変換です。データが失われる可能性があります。
+     1>d:\gamedevelopments\c++\punipuni\main.cpp(87): warning C4244: '+=' : 'float' から 'int' への変換です。データが失われる可能性があります。
+     1>d:\gamedevelopments\c++\punipuni\main.cpp(88): warning C4244: '+=' : 'float' から 'int' への変換です。データが失われる可能性があります。
+     1>d:\gamedevelopments\c++\punipuni\main.cpp(132): warning C4244: '+=' : 'float' から 'int' への変換です。データが失われる可能性があります。
+     1>d:\gamedevelopments\c++\punipuni\main.cpp(133): warning C4244: '+=' : 'float' から 'int' への変換です。データが失われる可能性があります。
+     1>d:\gamedevelopments\c++\punipuni\main.cpp(134): warning C4244: '+=' : 'float' から 'int' への変換です。データが失われる可能性があります。
+         Input.cpp
+         d:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+     1>d:\gamedevelopments\c++\punipuni\input.cpp(86): warning C4800: 'int' : ブール値を 'true' または 'false' に強制的に設定します (警告の処理)
+         Audio.cpp
+         d:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+         コードを生成中...
+     1>d:\gamedevelopments\c++\punipuni\audio.cpp(66): warning C4715: 'vtx::Audio::Load' : 値を返さないコントロール パスがあります。
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\GameDevelopments\C++\PuniPuni\Debug\PuniPuni.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x86" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\GameDevelopments\C++\PuniPuni\Debug\PuniPuni.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\GameDevelopments\C++\PuniPuni\Debug\PuniPuni.lib" /MACHINE:X86 Debug\App.obj
+         Debug\Audio.obj
+         Debug\Input.obj
+         Debug\Main.obj
+         Debug\Math.obj
+         Debug\Player.obj
+         Debug\Render.obj
+         Debug\Resource.obj
+         Debug\Stage.obj
+         Debug\vtx.obj
+         PuniPuni.vcxproj -> D:\GameDevelopments\C++\PuniPuni\Debug\PuniPuni.exe
+     1>プロジェクト "D:\GameDevelopments\C++\PuniPuni\PuniPuni.vcxproj" (Build ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:00:34.31
